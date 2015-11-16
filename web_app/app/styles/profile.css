@@ -1,0 +1,13 @@
+.img-profile{
+  width:100px;
+  margin-top:20px;
+}
+.img-small{
+  width:57px;
+}
+.img-small:hover{
+  cursor: hand;
+}
+.img-wrapper{
+  margin:auto;
+}

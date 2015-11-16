@@ -1,0 +1,13 @@
+.st-header{
+  height: 70px;
+  width:100%;
+  background-color: #FC4C02;
+  color: rgba(255, 234, 226, 0.69);
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(50, 50, 50, 0.52);
+  -moz-box-shadow:    0px 4px 5px 0px rgba(50, 50, 50, 0.52);
+  box-shadow:         0px 4px 5px 0px rgba(50, 50, 50, 0.52);
+}
+  .st-header h2{
+    text-align:center;
+  }
