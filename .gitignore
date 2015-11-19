@@ -4,6 +4,9 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+#Ignore the controller that have the strava user token
+/app/controllers/application_controller.rb
+
 # Ignore bundler config.
 /.bundle
 

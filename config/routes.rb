@@ -1,9 +1,24 @@
 Rails.application.routes.draw do
+
+  #return connected user's info
+  get 'user/' => 'user#index'
+  #return the information for the user with the given id
+  get 'user/:id' => 'user#user_info'
+  #return the information of the club with the given id
+  get 'club/:id' => 'club#info'
+  #return the members of the club with the given id
+  get 'club/:id/members' => 'club#club_members'
+
+
+  
+
+  get 'welcome/index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'welcome#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
